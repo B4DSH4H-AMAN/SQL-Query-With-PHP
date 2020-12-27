@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Welcome to Scott Hawk Center</h1>
+    <h3>Querying Hawk Center database</h3>
+    <div>
+        <form action="PDO.php" method="POST">
+            <label for="Query">Select a field to display:</label>
+            <select id="Query" name="Query">
+                <option value="*">*</option>
+                <option value="RoomNumber">RoomNumber</option>
+                <option value="Capacity">Capacity</option>
+                <option value="Type">Type</option>
+                <option value="Available">Available</option>
+            </select><p style="align-content: center;">
+            <input type="Submit" name="Submit" value="Submit Query"/></p>
+        </form>
+    </div>
+</body>
+</html>
